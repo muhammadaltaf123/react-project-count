@@ -1,13 +1,17 @@
 {
   "name": "react1project",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "homepage": "https://muhammadaltaf123.github.io/react-project1-count",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint ."
+
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -26,4 +30,3 @@
     "vite": "^7.0.4"
   }
 }
-
